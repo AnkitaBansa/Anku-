@@ -1,0 +1,187 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	background-color: #cfc4c62f;
+	display: flex;
+	font-size: 50;
+	height: 1cm;
+}
+li a{
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #b3f00d;
+	color: #ff8b07;
+}
+.deakin{
+	padding-top: 30px;
+	width: 108.5%;
+	cursor: pointer;
+	height: 90%;
+
+}
+.text{
+	display: flex;
+	background-color: #4daa48;
+	width: 107%;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(270deg, #97210c 1%, #3bbd37 99.94%);
+	/* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+	font-size: 20px;
+	}
+.front:hover .text {
+	display: flex;
+	 cursor: pointer;
+}
+.profile{
+	width: 10%;
+	display: flex;
+	margin: auto;
+	border-radius: 50%;
+	height: 6cm;
+	top: 60%;
+}
+.details{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #6d0e0e; 
+	font-weight: bold;
+	font-size: 25px;
+}
+h2{
+	background: linear-gradient(269.91deg, #13043c 0.08%, #6d0e0e 99.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-weight: bold;
+}
+.write{
+	bottom: 0;
+	position: absolute;
+	top: 70%;
+	 
+}
+.library{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #ff6a00;
+}
+.photos{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Courgette', cursive;
+	color: #acd41e;
+	font-size: 30px;
+}
+#TopToBottom { 
+    cursor: pointer;
+}
+.up{
+	width: 5%;
+	float: right;
+	transition: transform 50s;	
+}
+.up:hover{
+	 transform: scale(1.5);
+}
+hr{
+	width: 15%;
+}
+.sky{
+	width: 49%;
+	height: 11cm;
+}
+.lake{
+	width: 48%;
+	height: 10cm;
+}
+.Bike{
+	width: 49%;
+	height: 11cm;
+}
+.phones{
+	width: 47%;
+	height: 11cm; 
+}
+.London{
+	width: 48%;
+	height: 11cm;
+}
+.hotel{
+	width: 49%;
+	height: 10.7cm;
+}
+.para h3{
+	height: 40%;
+    display: flex;
+    /* justify-items: center; */
+    align-items: end;
+	padding-left: 20px;
+	color: blue; 
+	font-size: 25px;
+}
+.front {
+	width: 90%;
+	padding-left: 20px;
+	position: relative;
+	height: 40%;
+	color: red; 
+	
+}
+.process{
+	width: 490px;
+	height: 7.5cm; 
+}
+.survelliance{
+	width: 480px;
+	height: 8cm;
+}
+
+.style h3{
+    display: flex;
+    /* justify-items: center; */
+    align-items: end;
+	padding-left: 497px;
+	top: 210%;
+	flex-direction: row;
+	position: absolute;
+}
+.style p{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	padding-left: 20px;
+	top: 200%;
+	font-size: 25px;
+	left: 36%;
+	color: blue; 
+	align-items: end; 
+    font-weight: bold;
+}
+.down{
+	display: flex;
+}
+.lights{
+	
+}
+.light{
+	width: 480px;
+	height: 6cm;
+}
+.para p{
+	width: 732px;
+	color: black;  
+	flex-direction: row;
+    padding-left: 20px;
+    align-items: end;
+    display: flex;
+	font-size: 20px;
+	font-weight: bold;
+
+}
